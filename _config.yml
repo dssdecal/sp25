@@ -1,13 +1,13 @@
 title: Data 198
 description: Introduction to Real World Data Science
 logo: assets/site_images/dsslogo.png
-author: Directors of Academic Development Fall 24
+author: Directors of Academic Development Spring 2025
 email: dss.data198@gmail.com
 theme: just-the-docs
 current_week: 11
 favicon: assets/site_images/favicon.ico
 #url: "https://dssdecal.org"
-baseurl: "/fa24"
+baseurl: "/sp25"
 
 url: https://dssdecal.github.io # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
