@@ -1,5 +1,5 @@
 ---
-name: 😩 Brandon Lee Concepcion
+name: 😩 Brandon Concepcion
 photo: /acknowledgers/bing.png
 role: instructor
 linkedin: https://www.linkedin.com/in/brandonconcepcion/
