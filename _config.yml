@@ -4,7 +4,7 @@ logo: assets/site_images/dsslogo.png
 author: Directors of Academic Development Spring 2025
 email: dss.data198@gmail.com
 theme: just-the-docs
-current_week: 11
+current_week: 0
 favicon: assets/site_images/favicon.ico
 #url: "https://dssdecal.org"
 baseurl: "/sp25"
@@ -25,7 +25,7 @@ aux_links:
   Textbook: 
     - https://dssdecal.org/textbook
   Syllabus: 
-    - 'https://docs.google.com/document/d/1Dz6GFDBfU3S_VzzhqRJwBhNhM4sqR1jQ02erfx0rhFQ/edit?usp=sharing'
+    - https://docs.google.com/document/d/1Srl6EIxTOmLq5CiHyq-kpGjn1GeCigu8v_HQyBMGu4c/edit?usp=sharing
   Data Science Society at Berkeley:
     - 'https://dssberkeley.com'
   bCourses: 

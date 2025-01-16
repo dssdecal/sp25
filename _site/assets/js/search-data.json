@@ -21,25 +21,25 @@
     "relUrl": "/index.html#data-198-introduction-to-real-world-data-science-"
   },"3": {
     "doc": "Home",
-    "title": "UC Berkeley, Fall 2024",
+    "title": "UC Berkeley, Spring 2025",
     "content": "Jump to Current Week . | ",
-    "url": "/sp25/index.html#uc-berkeley-fall-2024",
+    "url": "/sp25/index.html#uc-berkeley-spring-2025",
     
-    "relUrl": "/index.html#uc-berkeley-fall-2024"
+    "relUrl": "/index.html#uc-berkeley-spring-2025"
   },"4": {
     "doc": "Home",
-    "title": "Week 11 Announcements",
-    "content": "Dec 2 &middot; 0 min read . | A beta version of the DeCal textbook can be found here! | Final Survey is due Friday, December 06 at 11:59pm | Congratulations on completing the DeCal, hope you all had fun! | . ",
+    "title": "Week 12 Announcements",
+    "content": "Jan 10 &middot; 0 min read . | A beta version of the DeCal textbook can be found here! | Final Survey is due Friday, December 06 at 11:59pm | Welcome to Data 198: Introduction to Real World Data Science. Looking forward to an exciting semester! | . ",
     "url": "/sp25/index.html",
     
     "relUrl": "/index.html"
   },"5": {
     "doc": "Home",
-    "title": "Quote of the week:",
+    "title": "Quote of the week: If you want to master something, teach it - Richard Feynman",
     "content": "| ",
-    "url": "/sp25/index.html#quote-of-the-week",
+    "url": "/sp25/index.html#quote-of-the-week-if-you-want-to-master-something-teach-it---richard-feynman",
     
-    "relUrl": "/index.html#quote-of-the-week"
+    "relUrl": "/index.html#quote-of-the-week-if-you-want-to-master-something-teach-it---richard-feynman"
   },"6": {
     "doc": "Home",
     "title": "Week 1",
@@ -218,7 +218,7 @@
   },"31": {
     "doc": "Policies",
     "title": "Final Project",
-    "content": "Over the course of the semester, along with the support of their TAs and tutors, students will work on a data science project in a domain of their choice. Students are expected to present their work during the end of semester final research symposium. Projects are an essential component to any technical course, especially one that aims to synthesize computing with real-world applications. The project for this class will be graded on three points: Content, Presentation, and Collaboration. Projects are designed to be open-ended, and meant for applying the skills, topics, and techniques learned during the course. This allows for students to experience a date science domain of their choosing, while still grounding themselves in the material of the course. Late project submissions are deducted 10% for every day they are late. No project submissions of any kind will be accepted after Nov 15th, as to provide staff with enough time to grade before the final grade submission deadline . Reminder: This course is 2 unit P/NP and a grade of 70% or higher is required to pass the course. ",
+    "content": "Over the course of the semester, along with the support of their TAs and tutors, students will work on a data science project in a domain of their choice. Students are expected to present their work during the end of semester final research symposium. Projects are an essential component to any technical course, especially one that aims to synthesize computing with real-world applications. The project for this class will be graded on three points: Content, Presentation, and Collaboration. Projects are designed to be open-ended, and meant for applying the skills, topics, and techniques learned during the course. This allows for students to experience a date science domain of their choosing, while still grounding themselves in the material of the course. Late project submissions are deducted 10% for every day they are late. No project submissions of any kind will be accepted after April 21st, as to provide staff with enough time to grade before the final grade submission deadline . Reminder: This course is 2 unit P/NP and a grade of 70% or higher is required to pass the course. ",
     "url": "/sp25/policies/#final-project",
     
     "relUrl": "/policies/#final-project"
