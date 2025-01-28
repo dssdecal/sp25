@@ -4,11 +4,7 @@ class: Berkeley
 status: Active
 ---
 
-
-Dec 2
-: **9**{: .label} Symposium 2
+Apr 21
+: **8**{: .label} Symposium 1
 : **Lecture**{: .label .label-lecture} Mini Announcements
 
-Dec 6
-: **10**{: .label}  Reflection
-: **Survey**{: .label .label-survey} **DeCal Feedback Reflection (Due 12/06)**

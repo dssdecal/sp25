@@ -4,6 +4,5 @@ class: Berkeley
 status: Active
 ---
 
-
-Nov 11
-: **Veterans Day!**{: .label} No class
+Mar 31
+: Career Panel
