@@ -57,7 +57,7 @@ Your TA and tutor will be your main point of contact for all course related ques
 
 ### Live Lecture
 
-Live lectures will be held on **Mondays, 6:30PM to 8:30PM, at <a href = "https://ced.berkeley.edu/about-ced/our-spaces/bauer-wurster-hall" target = "_blank">Wurster</a> 102**; students are **expected** to attend live lectures synchronously, as we will not be recording lectures unless enforced otherwise by university guidelines. Slides and lecture examples will be provided on the course website during class time.
+Live lectures will be held on **Mondays, 6:30PM to 8:30PM, at Evans 60**; students are **expected** to attend live lectures synchronously, as we will not be recording lectures unless enforced otherwise by university guidelines. Slides and lecture examples will be provided on the course website during class time.
 
 ## Grades
 
