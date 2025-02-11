@@ -1,11 +1,11 @@
 ---
-title: Week 0
-week: 0
-date: 2025-01-27 #Year-Month-Date
+title: Week 1
+week: 1
+date: 2025-02-10 #Year-Month-Date
 ---
 
-- Our Info Session slides can be found <a href = "https://docs.google.com/presentation/d/10yp_8q187LKHX0JGRETxFdYTlmej_Mkat4KPDKJh35U/edit?usp=sharing" target = "_blank">here!</a>
-- <a href = "https://docs.google.com/forms/d/e/1FAIpQLSdYTbsX1vWD63dAipgJ0jKIuWjk2deXJy-HcvcRGV4RXEvuxw/viewform?usp=header">Applications</a> are due Thursday, February 06 at 11:59pm 
+- Our Week 1 slides can be found <a href = "https://docs.google.com/presentation/d/128AeMk7A0n0OxlMWMhVoeQ2vB2ZSjtGUYqoh8cg4r4k/edit?usp=sharing" target = "_blank">here!</a>
+- Team Matching <a href = "https://docs.google.com/forms/d/1cJqnw6-2w1rZHED6Xmp6Jg9RTwCq84xhdJV6BSgPV48/prefill">Forms</a> are due Friday, February 15 at 11:59pm 
 - Welcome to Data 198: Introduction to Real World Data Science. Looking forward to an exciting semester!
 
 ## Quote of the week: If you want to master something, teach it - Richard Feynman
