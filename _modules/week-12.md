@@ -1,7 +1,7 @@
 ---
 title: Week 12
 class: Berkeley
-status: Active
+status:
 ---
 
 Apr 28

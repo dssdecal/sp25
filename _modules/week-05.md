@@ -1,7 +1,7 @@
 ---
 title: Week 5
 class: Berkeley
-status: Active
+status: 
 ---
 
 Mar 10

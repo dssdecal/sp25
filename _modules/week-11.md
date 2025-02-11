@@ -1,7 +1,7 @@
 ---
 title: Week 11
 class: Berkeley
-status: Active
+status: 
 ---
 
 Apr 21

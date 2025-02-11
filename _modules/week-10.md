@@ -1,7 +1,7 @@
 ---
 title: Week 10
 class: Berkeley
-status: Active
+status: 
 ---
 
 Apr 14
