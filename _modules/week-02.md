@@ -1,7 +1,7 @@
 ---
 title: Week 2
 class: Berkeley
-status: active
+status: Active
 ---
 
 Feb 17
