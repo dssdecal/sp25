@@ -28,18 +28,18 @@
     "relUrl": "/index.html#uc-berkeley-spring-2025"
   },"4": {
     "doc": "Home",
-    "title": "Week 3",
-    "content": "Feb 24 &middot; 0 min read . | Our Week 3 slides can be found here! | Project 1 Checkpoint is due Friday, February 28 at 11:59pm | Mini-Vitamin 1 is due Monday, February 24 at 11:59 pm | If you do not have a group, contact DADs ASAP | . ",
+    "title": "Week 4",
+    "content": "Mar 3 &middot; 0 min read . | Our Week 4 slides can be found here! | No Project Checkpoint is due this week! | Mini-Vitamin 2 is due Monday, March 03 at 10:00 pm | If you do not have a group, contact DADs ASAP | . ",
     "url": "/sp25/index.html",
     
     "relUrl": "/index.html"
   },"5": {
     "doc": "Home",
-    "title": "Quote of the week: Without data, you’re just another person with an opinion. – W. Edwards Deming",
+    "title": "Quote of the week: The best way to predict the future is to create it – Peter Drucker",
     "content": "| ",
-    "url": "/sp25/index.html#quote-of-the-week-without-data-youre-just-another-person-with-an-opinion--w-edwards-deming",
+    "url": "/sp25/index.html#quote-of-the-week-the-best-way-to-predict-the-future-is-to-create-it--peter-drucker",
     
-    "relUrl": "/index.html#quote-of-the-week-without-data-youre-just-another-person-with-an-opinion--w-edwards-deming"
+    "relUrl": "/index.html#quote-of-the-week-the-best-way-to-predict-the-future-is-to-create-it--peter-drucker"
   },"6": {
     "doc": "Home",
     "title": "Week 1",
@@ -57,179 +57,186 @@
   },"8": {
     "doc": "Home",
     "title": "Week 3",
-    "content": "Feb 24 2 Useful Libraries, Introduction to Pandas, Project Group Reveals! 🐼 Lecture Slides . Readings Pandas 1, Pandas 2, Pandas 3 . Resources Pandas API Reference Checkpoint Project Idea Checkpoint (Due 03/03) ",
+    "content": "Feb 24 2 Useful Libraries, Introduction to Pandas, Project Group Reveals! 🐼 Lecture Slides . Readings Pandas 1, Pandas 2, Pandas 3 . Resources Pandas API Reference | ",
     "url": "/sp25/index.html#week-3",
     
     "relUrl": "/index.html#week-3"
   },"9": {
+    "doc": "Home",
+    "title": "Week 4",
+    "content": "Mar 3 3 Data Cleaning with Pandas 🧹 Lecture Slides, Jonathan’s Lightning Talk Demos Data Cleaning with Pandas Resources Data Cleaning Deepnote ",
+    "url": "/sp25/index.html#week-4",
+    
+    "relUrl": "/index.html#week-4"
+  },"10": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/sp25/index.html",
     
     "relUrl": "/index.html"
-  },"10": {
+  },"11": {
     "doc": "Pandas Reference",
     "title": "Pandas Reference",
     "content": "Created by Brandon Concepcion . ",
     "url": "/sp25/pandas_reference/",
     
     "relUrl": "/pandas_reference/"
-  },"11": {
+  },"12": {
     "doc": "Pandas Reference",
     "title": "Table of Contents",
     "content": ". | Pandas Reference . | What is Pandas? | Pandas | GroupBy Aggregation Functions | . | . ",
     "url": "/sp25/pandas_reference/#table-of-contents",
     
     "relUrl": "/pandas_reference/#table-of-contents"
-  },"12": {
+  },"13": {
     "doc": "Pandas Reference",
     "title": "What is Pandas?",
     "content": "Pandas is a powerful data manipulation and analysis library in Python. It provides two main data structures: . | DataFrame: A 2-dimensional tabular data structure with labeled axes (rows and columns), similar to a spreadsheet in Excel or Google Sheets | Series: A 1-dimensional labeled array capable of holding any data type. You can think of these as the columns of a DataFrame | . ",
     "url": "/sp25/pandas_reference/#what-is-pandas",
     
     "relUrl": "/pandas_reference/#what-is-pandas"
-  },"13": {
+  },"14": {
     "doc": "Pandas Reference",
     "title": "Pandas",
     "content": "In the examples in the left column, pd refers to the Pandas library. df refers to a generic DataFrame. | Name | Description | Input | Output | . | pd.read_csv() | Reads a CSV file into a DataFrame. | string: filename | DataFrame: contents of the CSV file | . | df.head(n) | Displays the first n rows of the DataFrame. Defaults to 5 if n is not provided. | (Optional) int: number of rows to display | DataFrame: first n rows | . | df.tail(n) | Displays the last n rows of the DataFrame. Defaults to 5 if n is not provided. | (Optional) int: number of rows to display | DataFrame: last n rows | . | df.info() | Provides a summary of the DataFrame, including column data types and non-null values. | None | Summary: information about DataFrame | . | df.describe() | Generates descriptive statistics like mean, min, max for numerical columns. | None | DataFrame: summary statistics | . | df.shape | Returns the number of rows and columns in the DataFrame. | None | tuple: (rows, columns) | . | df.columns | Lists the column names in the DataFrame. | None | Index: column names | . | df.dtypes | Shows the data types of each column in the DataFrame. | None | Series: data types of each column | . | df.isnull() | Returns a DataFrame showing Boolean values for missing data. | None | DataFrame: True/False for null values | . | df.dropna() | Removes rows with missing values. | None | DataFrame: without missing rows | . | df.fillna(value) | Fills missing values with a specified value. | value: what to fill in for missing values | DataFrame: missing values replaced | . | df.sort_values(by) | Sorts the DataFrame by the values in a column or multiple columns. | string: column name (Optional) ascending=True/False | DataFrame: sorted DataFrame | . | df.groupby(by) | Groups the DataFrame by one or more columns and allows aggregation. | string: column name(s) to group by | DataFrameGroupBy: object for aggregation | . | df.drop(labels) | Drops specified rows or columns from the DataFrame. | string: column name or list of labels | DataFrame: with columns/rows dropped | . | df.iloc[] | Selects data by integer-location based indexing (row and column positions). | int: row/column index | DataFrame/Series: selected data | . | df.loc[] | Selects data by label-based indexing (row/column names). | string: label or list of labels | DataFrame/Series: selected data | . | df.rename(columns={'old':'new'}) | Renames columns or index of the DataFrame. | dict: old and new names for columns | DataFrame: renamed columns | . | df.apply(function) | Applies a function to each element in a column or across a row/column. | function: the function to apply | Series or DataFrame: with results | . | df.merge(df2, on=key) | Merges two DataFrames based on a common column (key). | DataFrame: another DataFrame string: key column | DataFrame: merged DataFrame | . | pd.concat([df1, df2]) | Concatenates two or more DataFrames along a particular axis (rows or columns). | list: list of DataFrames | DataFrame: concatenated DataFrame | . ",
     "url": "/sp25/pandas_reference/#pandas",
     
     "relUrl": "/pandas_reference/#pandas"
-  },"14": {
+  },"15": {
     "doc": "Pandas Reference",
     "title": "GroupBy Aggregation Functions",
     "content": "These aggregation functions are most commonly applied after using the .groupby() method in Pandas, such as df.groupby(agg_col).agg_func(). Recall that the .groupby() method is used to perform group-wise operations. The groupby() method groups the data based on one or more columns, and then applies the aggregation functions to each one of the groups to compute the desired statistics. | Name | Description | Output | . | mean() | Calculates the mean (average) of values in a column or group. | float: mean of values | . | sum() | Sums all the values in a column or group. | float/int: sum of values | . | min() | Returns the minimum value in a column or group. | float/int: minimum value | . | max() | Returns the maximum value in a column or group. | float/int: maximum value | . | count() | Counts the number of non-null entries in a column or group. | int: count of non-null rows | . | median() | Calculates the median of values in a column or group. | float/int: median value | . | std() | Calculates the standard deviation of values in a column or group. | float: standard deviation | . | agg(func) | Applies a custom aggregation function (one the user would define) to a group. | Series: result of aggregation | . | nunique() | Counts the number of unique values in a column or group. | int: count of unique values | . | first() | Returns the first value in each group. | Series: first values | . | last() | Returns the last value in each group. | Series: last values | . | mode() | Returns the mode (most frequent value) in a column or group. | Series: mode value | . | prod() | Returns the product of values in a column or group. | float/int: product of values | . ",
     "url": "/sp25/pandas_reference/#groupby-aggregation-functions",
     
     "relUrl": "/pandas_reference/#groupby-aggregation-functions"
-  },"15": {
+  },"16": {
     "doc": "Policies",
     "title": "Policies",
     "content": " ",
     "url": "/sp25/policies/",
     
     "relUrl": "/policies/"
-  },"16": {
+  },"17": {
     "doc": "Policies",
     "title": "Table of Contents",
     "content": ". | Policies . | About the Course . | Course Overview | Learning Outcomes | Prerequisites | Support | . | Course Components . | Live Lecture | . | Grades | Attendance | Mini Vitamins | Assignments | Final Project | Supervision &amp; Responsibility of Instructor of Record . | Learning Cooperatively | . | Academic Honesty | A Parting Thought | . | . ",
     "url": "/sp25/policies/#table-of-contents",
     
     "relUrl": "/policies/#table-of-contents"
-  },"17": {
+  },"18": {
     "doc": "Policies",
     "title": "About the Course",
     "content": "Course Overview . Welcome to the Data Science Society at Berkeley’s very own DeCal: Introduction to Real World Data Science, a semester-long course designed to equip students with essential data science skills through hands-on, project-based learning. Our program takes a departure from the traditional classroom setting, empowering members to work collaboratively on an original data science project of their choosing, giving them full creative control. Throughout the course, students will receive mentorship from our Decal’s committee members. We will cover every stage of the data science lifecycle – from formulating a data-centric project proposal, to discovering insights through exploratory data analysis, and concluding with the engineering and evaluation of machine learning models. This introductory course covers a wide variety of data science concepts, including topics both traditionally and not traditionally taught in the lecture halls of Berkeley. We aim to equip students with programming expertise, through engaging lessons that mirror the data science lifecycle. As students progress, they will directly apply these concepts in their own projects, gaining first-hand experience with each stage of their project’s lifecycle. In this course, students will not only develop and refine their technical skills, but also learn from real-world data scientists through panels and speaker events. Data 198: Introduction to Real World Data Science will challenge students and prepare them in the search for post-graduate opportunities, all while maintaining the low-pressure environment of a DeCal that prioritizes learning above all else. This course is a 2-unit, application-based P/NP class designed as a hands-on supplement for those interested in learning data science at UC Berkeley. Emphasizing concepts that require minimal prior knowledge, the course will guide students through a data science project (undergoing the entire data science lifecycle) which will help you build up your portfolio. Grading is based on the satisfactory completion of this project, with a few additional checkpoints and weekly mini-vitamins to reinforce learning. Learning Outcomes . | Understand the data science lifecycle and develop core skills in data manipulation, visualization, model development, and model evaluation to make predictions and answer real-world questions. | Synthesize data science concepts and apply them collaboratively in industry settings. | Develop the ability to communicate complex data-based procedures and findings to academic peers. | Understand how to ideate an original project based on personal curiosity and data collection. | . Prerequisites . The curriculum and format is designed specifically for students who have not previously taken computer science, and data science courses. Students with some prior experience in computing are welcome to enroll, and often find that this course offers a new perspective that blends computational and inferential thinking. Students who have taken several statistics or computer science courses should instead take a more advanced course like Data 100. Support . You are not alone in this DATA 198: Introduction to Real World Data Science the staff and instructors are here to support you as you learn the material. It’s expected that some aspects of the course will take time to master, and the best way to master challenging material is to ask questions. Your TA and tutor will be your main point of contact for all course related questions/grade clarifications. The TAs and tutors are here to support you so please lean on your lab TA if you need more support in the class or have any questions/concerns. Important Note: We don’t use any personal or Berkeley emails to handle Decal logistics or requests. Any emails of this form to Facilitator’s or TA’swill be disregarded. | For personal inquiries during the semester, please message your TA on private messaging platforms or their personal Berkeley email. | For inquiries before or after the semester, email dss.data198@gmail.com | . ",
     "url": "/sp25/policies/#about-the-course",
     
     "relUrl": "/policies/#about-the-course"
-  },"18": {
+  },"19": {
     "doc": "Policies",
     "title": "Course Components",
     "content": "Live Lecture . Live lectures will be held on Mondays, 6:30PM to 8:30PM, at Evans 60; students are expected to attend live lectures synchronously, as we will not be recording lectures unless enforced otherwise by university guidelines. Slides and lecture examples will be provided on the course website during class time. ",
     "url": "/sp25/policies/#course-components",
     
     "relUrl": "/policies/#course-components"
-  },"19": {
+  },"20": {
     "doc": "Policies",
     "title": "Grades",
     "content": "Grades will be assigned using the following weighted components. | Activity | Grade | . | Attendance | 30% (First two classes are mandatory) | . | Mini-Vitamins | 20% | . | Checkpoints/Reflections | 20% | . | Final Project | 30% | . ",
     "url": "/sp25/policies/#grades",
     
     "relUrl": "/policies/#grades"
-  },"20": {
+  },"21": {
     "doc": "Policies",
     "title": "Attendance",
     "content": "This class will be difficult if you do not keep up with the material. Prior to each class, you should review previous material and be engaged in class discussion. Students will be expected to attend the DeCal, with attendance being taken strictly during the end of lecture. The first two meetings of the DeCal are mandatory, no exceptions. If you miss any of the first two meetings, your spot will be taken by the next person on the waitlist. There are up to two unexcused absences allowed without penalty. Excused attendances (i.e. family emergencies, midterm conflicts, medical reasons) should be approved by Course Directors at least 24 hours prior to the class time. To get approved for an excused absence, you may choose one of two options: . | Contact your TA and Tutor about your absence | Send a message to dss.data198@gmail.com explaining your absence. | . ",
     "url": "/sp25/policies/#attendance",
     
     "relUrl": "/policies/#attendance"
-  },"21": {
+  },"22": {
     "doc": "Policies",
     "title": "Mini Vitamins",
     "content": "We will also have mini-vitamins due the night after each lecture (Monday 11:59PM). These mini-vitamins are graded on correctness, and designed to be a quick concept check for the topics covered during lecture. You are allowed to collaborate with each other, as well as their TA and tutor on mini-vitamin questions, but you must answer the questions yourselves. Students will submit these mini-vitamins on Bcourses. ",
     "url": "/sp25/policies/#mini-vitamins",
     
     "relUrl": "/policies/#mini-vitamins"
-  },"22": {
+  },"23": {
     "doc": "Policies",
     "title": "Assignments",
     "content": "In order to properly pace students through the final project, there will be 6 assignments in total: 4 project checkpoints and 2 reflections. Completing these assignments are essential for doing well on the final project, and ultimately the DeCal. Project checkpoints will be submitted on Bcourses. ",
     "url": "/sp25/policies/#assignments",
     
     "relUrl": "/policies/#assignments"
-  },"23": {
+  },"24": {
     "doc": "Policies",
     "title": "Final Project",
     "content": "Over the course of the semester, along with the support of their TAs and tutors, students will work on a data science project in a domain of their choice. Students are expected to present their work during the end of semester final research symposium. Projects are an essential component to any technical course, especially one that aims to synthesize computing with real-world applications. The project for this class will be graded on three points: Content, Presentation, and Collaboration. Projects are designed to be open-ended, and meant for applying the skills, topics, and techniques learned during the course. This allows for students to experience a date science domain of their choosing, while still grounding themselves in the material of the course. Late project submissions are deducted 10% for every day they are late. No project submissions of any kind will be accepted after April 21st, as to provide staff with enough time to grade before the final grade submission deadline . Reminder: This course is 2 unit P/NP and a grade of 70% or higher is required to pass the course. ",
     "url": "/sp25/policies/#final-project",
     
     "relUrl": "/policies/#final-project"
-  },"24": {
+  },"25": {
     "doc": "Policies",
     "title": "Supervision &amp; Responsibility of Instructor of Record",
     "content": ". | The Instructor of Record for DATA 198 - Introduction to Real-World Data Science will be TBD | The lecturers will share instructional materials with the Instructor of Record, via email/Google Drive, at least two weeks before the instruction, and expect to get feedback, via email/comments on materials within a week. | The lecturers will then have ~5 days to revise and rehearse for new materials. | . | The lecturers will schedule meetings with the Instructor of Record, at least a week before instruction begins, to seek advice and/or explanation on confusing/uncertain concepts. | Our Instructor of Record will also help with creating bCourses site, if necessary. If eventually the lecturers decide to use Git/GitHub purely, Instructor of Record will be invited to join the repository. | The Instructor of Record also holds the responsibility for supervising the awarding of all final grades and for reporting the grades to the Office of the Registrar. The lecturers choose to use the same end-of-semester course evaluation form as that being used by the Instructor of Record for his other course(s). Our Instructor of Record is welcomed to do in-class observations, and to give any help/suggestion during break. Our Instructor of Record agrees to help with any other unforeseeable issues if needed, unless he sees his involvements being inappropriate. | . Learning Cooperatively . As you work on your assignments, we encourage you to discuss course content with your project partners. No matter your academic background, you will learn more if you work alongside others than if you work alone. Ask questions, answer questions, and share ideas liberally. If some emergency takes you away from the course for an extended period, or if you decide to drop the course for any reason, please don’t just disappear silently! You should inform your TA, Tutor, and project partners immediately, so that nobody is expecting you to do something you can’t finish. ",
     "url": "/sp25/policies/#supervision--responsibility-of-instructor-of-record",
     
     "relUrl": "/policies/#supervision--responsibility-of-instructor-of-record"
-  },"25": {
+  },"26": {
     "doc": "Policies",
     "title": "Academic Honesty",
     "content": "You must write your answers in your own words, and you must not share your completed work. The exception to this rule is that you can share everything related to a project with your project partners and turn in one project between all of you. Please read Berkeley’s Code of Conduct carefully. Penalties for academic misconduct are severe, and include reporting to the Center for Student Conduct. They might also include a NP in the course or even dismissal from the university. It’s just not worth it! . When you need help, reach out to your TA and tutor. You are not alone! Directors and staff are here to help you succeed. We expect that you will work with integrity and with respect for other members of the class, just as staff will work with integrity and with respect for you. ",
     "url": "/sp25/policies/#academic-honesty",
     
     "relUrl": "/policies/#academic-honesty"
-  },"26": {
+  },"27": {
     "doc": "Policies",
     "title": "A Parting Thought",
     "content": "The main goal of the course is that you should learn, and have a fantastic experience doing so. Please keep that goal in mind throughout the semester. Welcome to Data Science Society at Berkeley’s Data 198: Introduction to Real World Data Science! . ",
     "url": "/sp25/policies/#a-parting-thought",
     
     "relUrl": "/policies/#a-parting-thought"
-  },"27": {
+  },"28": {
     "doc": "Python",
     "title": "Python Reference",
     "content": "Created by Brandon Concepcion . ",
     "url": "/sp25/python/#python-reference",
     
     "relUrl": "/python/#python-reference"
-  },"28": {
+  },"29": {
     "doc": "Python",
     "title": "Table of Contents",
     "content": ". | Python Reference . | Data Types | Arithmetic Operators | Variables and Expressions | . | . Data Types . | Data Type | Description | Examples | . | int | Represents integers: whole numbers that are positive or negative. | 42, -100, 0 | . | float | Represents decimal numbers (floating-point). | 3.14, -1.23, 0.0 | . | str | Represents text (strings of characters). | \"Hello\", 'Data' | . | bool | Represents boolean values (True or False). | True, False | . Arithmetic Operators . | Numeric Expression | Description | Examples | . | Addition (+) | Adds two numbers together. | 2 + 3 would return 5 x + 10 adds 10 to the value of x | . | Subtraction (-) | Subtracts the second number from the first. | 5 - 2 would return 3 x - 4 subtracts 4 from x | . | Multiplication (*) | Multiplies two numbers. | 3 * 4 would return 12 x * 2 multiplies x by 2 | . | Division (/) | Divides the first number by the second, returns a floating-point result. | 10 / 2 would return 5.0 x / 4 divides x by 4 | . | Floor Division (//) | Divides the first number by the second, rounds down to the nearest integer. | 10 // 3 would return 3 x // 2 divides x and rounds down | . | Modulus (%) | Returns the remainder of dividing the first number by the second. | 10 % 3 would return 1 x % 2 checks if x is even or odd (remainder) | . | Exponentiation (**) | Raises the first number to the power of the second number. | 2 ** 3 would return 8 x ** 2 squares x | . | Unary Negation (-) | Returns the negative of the number. | -x returns the negative of x -10 would return -10 | . Variables and Expressions . | Concept | Description | Examples | . | Expression | Any combination of values, variables, operators, and function calls that evaluates to a value. | 2 + 3, x * 10, len('hello') | . | Variable | A name that refers to a value or an expression result. Can be reassigned to different values. | x = 10 name = \"Sid\" | . | Assignment | The process of assigning a value to a variable using the = operator. | age = 25 assigns the value of 25 to the variable age total = price * quantity sets the total variable equal to the product of the values in the price and quantity variable | . | Arithmetic Expression | An expression involving arithmetic operators (+, -, *, /, %, **, //). | a + b, 3 * 4, 10 / 2, 2 ** 3 | . | Comparison Expression | An expression that compares two values using operators (==, !=, &gt;, &lt;, &gt;=, &lt;=), and returns either True or False | a == b check the equivalency of a and b 5 &gt; 3 will return True x != y checks if x is not equal to y, returning True if it is not | . | String Expression | An expression that manipulates strings with operators like + for concatenation or * for repetition. | \"Hello\" + \" World\", \"a\" * 3 | . | Variable Reference | Referring to a variable in an expression to use its value. | x * 5 would return the value of x times 5 count - 1 would return the value of count minus 1 | . | Compound Expression | A combination of multiple expressions into one, possibly using parentheses for grouping. | (a + b) * 3 | . ",
     "url": "/sp25/python/#table-of-contents",
     
     "relUrl": "/python/#table-of-contents"
-  },"29": {
+  },"30": {
     "doc": "Python",
     "title": "Python",
     "content": " ",
     "url": "/sp25/python/",
     
     "relUrl": "/python/"
-  },"30": {
+  },"31": {
     "doc": "Staff",
     "title": "Staff",
     "content": "Say HELLO to your Spring 2025 Academic Development Committee! . Hover over some of our icons to get a different side of our personalities! . ",
     "url": "/sp25/staff/",
     
     "relUrl": "/staff/"
-  },"31": {
+  },"32": {
     "doc": "Staff",
     "title": "Executives",
     "content": "| Course Director Henry Hong . Support Vector Machines . Hey guys! I’m Henry! I’m a second year Computer Science + Cognitive Science Major from Pleasanton. Super excited to meet you guys! This is my third semester in Academic Development and I am a fellow DeCal alumni. My hobbies include playing the saxophone, piano, hiking, dragon boat, and exploring campus (especially strawberry creek!). | Course Director Alan Wang . Data Visualization . ALO! I’m Alan, a senior studying EECS. I spawned at Irvine, CA and this will be my second sem as a part of Acadev. Apparently I’m weird for mixing my neapolitan ice cream but I still stand by it. I enjoy playing tennis, pickleball, badminton, smash, climbing, hiking, and consuming copious amounts of animanga. Also, I’ll pay anyone $20 if they can beat my zetamac score or $5 if you can beat me in word hunt. | DSS President Siddharth Ramshankar . Causal Inference . Helloo, I’m Siddharth! I’m a senior majoring in Computer Science and Data Science from Fremont. This is my fifth semester in DSS :D but I took the DeCal in Fall 2021. I like playing basketball, taking selfies with llamas, and being DSS’s resident Professor Adhikari fan! Looking forward to meeting everyone and seeing another semester of great projects!! . | Internal Vice President James Geronimo . Natural Language Processing . Hello everyone! I’m James, a third-year, Bay Area 🌉 native studying CS and data science. I was formerly a mentor and Director of AcaDev, and am super excited to see how the DeCal continues to grow! Aside from academics, you can find me hooping 🏀 at the RSF or jamming out to K-pop/instrumental jazz 🎶. Looking forward to seeing the all the great projects you create! . | Finance Fiona Chang . Probability . Hiya, I’m Fiona! I’m a senior studying Statistics and Data Science and also the current VP of Finance for DSS. I enjoy making matcha, shopping, and thinking about my 3 cats back home :) Feel free to reach out anytime! . ",
     "url": "/sp25/staff/",
     
     "relUrl": "/staff/"
-  },"32": {
+  },"33": {
     "doc": "Staff",
     "title": "Teaching Assistants",
     "content": "| Alisha Luc . Machine Learning . Hey! I’m Alisha and I’m a first year Data Science Major. I’m from the San Jose, Bay area and this is my first semester in the DSS acadev committee. I love my dog, binging Netflix, crocheting, drinking matcha, and eating buldak ramen noodles. I’m super excited to meet everyone! . | Collin Duong . Machine Learning . Hi everyone! I’m Collin, a second year from the San Gabriel Valley region of SoCal, studying data science and applied math. This is my first semester in academic development. I love hiking, listening to music, and visiting lookout points with friends. I’m super stoked to get to know everyone and help people along their data science journeys! . | Manav Bhargava . Machine Learning . Hi I’m Manav! I’m a sophomore studying Cognitive Science and I’m really excited to be a part of the academic development committee this semester! Some of my interests include listening to music (i love sonder, giveon, uzi, and i’m a BIG tory lanez fan), playing/watching sports (baseball, basketball, football, and even fantasy football), yapping, eating a lot of food, and trying to learn how to play my ukelele (emphasis on trying). I can’t wait to meet everyone this fall! . | Wayland La . Pandas . Whats up, Im Wayland La, a second year studying applied math but intending on switching to data science. I like playing chess and basketball and am a big warriors and niners fan since Im from the bay. Looking forward to getting to know everyone! . | Yara Hassan . Pandas . Heyyy, I’m Yara!! I’m a second year studying Data Science and Environmental Economics, originally from Egypt, but I grew up in the Bay Area. 🌉🌉This is my first semester in Academic Development, but I previously took this Decal!! 📚I enjoy cooking, yapping n napping, shopping, and exploring new places. I am so excited to meet you all and for a great semester!! 🫶🤭 . | Jonathan Ferrari . Computer Vision . hi! i’m a senior majoring in DS, CogSci, Psych, and CS. when im not teaching or in class, you can usually find me at a cafe around campus, playing zelda/smash bros with friends, or out at a nearby hiking trail! a fun fact about me is that i’ve been to 47 states and 2/3 of the national parks! . | Mitchell Lee . SQL . Hi! I’m Mitchell, a third-year student majoring in Data Science and Economics. I’m originally from Taiwan and enjoy swimming, pickleball, badminton, photography, and playing the cello. This is my third semester in the Data Science Society as an Academic Development mentor. I’m looking forward to getting to know everyone! . | Steven Zeng . Data Visualization . Howdy y’all! My name’s Steven and I’m a third year studying DS and ES. I’m from Texas and I love going on hikes, photography, and going to the gym. Excited to meet y’all! . | Baha Alkhatib . Pandas . Hi! I’m Baha. I am a third year Data Science major from Palestine. This is my second semester in Academic Development and my first time as TA. I enjoy walking, going to the gym, swimming, and hanging out with friends. I am very excited to meet you all. | Jake Xiang . Machine Learning . Hello! I’m Jake, a second year Data Science Major from the Bay Area (San Mateo). This is my second semester in Academic Development and I look forward to meeting everyone this fall semester. I enjoy hooping, watching and betting on sports (basketball, soccer, football), playing poker, watching TV, and chilling with friends! . | Jocelyn Ding . Machine Learning . Hi!! I’m Jocelyn, a third year Computer Science major who grew up in Shanghai and San Diego. I love traveling, music, going to cafes, golf, and just going on spontaneous adventures with my friends. This is my second semester with the decal and I’m so excited to meet you all! . | Katie Zhang . Pandas . Hi! My name is Katie and I am currently a sophomore studying Data Science, and also from the Chicago suburbs. This will be my second semester in Academic Development and I’m really excited to teach! Some of my favorite things include dance, matcha, SZA, and trying out new restaurants. Excited to see and meet you all this fall :) . ",
     "url": "/sp25/staff/#teaching-assistants",
     
     "relUrl": "/staff/#teaching-assistants"
-  },"33": {
+  },"34": {
     "doc": "Staff",
     "title": "Tutors",
     "content": "| Bing Concepcion . Central Limit Theorem . 🍨 Hi everyone, I’m Bing! I was born and raised in the SF Bay Area, and I love Safeway, watching movies, and talking with ChatGPT. Can’t wait to get this show on the road! 🏎️ . | Lynn Chien . Feature Engineering . Hiii I’m Lynn, a third year studying Data Science &amp; Cognitive Science from Vegas 🎲🃏💸 This is my third semester in Acadev and I’m super excited to be a director! I love eating, sleeping, playing League of Legends ARAM, art, poker, and watching videos of kittens eating raw meat. So excited to meet everyone this semester!!! . | Ryan Stevenson . Feature Engineering . Hey! I’m Ryan, a third year majoring in IEOR and minoring in data science. This is my fourth semester participating in the DeCal, third teaching the DeCal, and first as director. My hobbies include being active (soccer/volleyball/climbing) and maximizing shareholder value. Looking forward to the semester, and feel free to reach out about anything! . ",
