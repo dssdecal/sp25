@@ -7,4 +7,5 @@ role: TA
 linkedin: https://www.linkedin.com/in/manavbhargava7/
 hover-photo: staff_hovers/manav_hover.jpg
 pronouns: Machine Learning
+order: 4
 ---
