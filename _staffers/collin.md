@@ -3,7 +3,7 @@ email: cduong04@berkeley.edu
 name: Collin Duong
 #pronouns: He/Him
 photo: staff/collin.jpeg
-bio: Hi everyone! I’m Collin, a second year from the San Gabriel Valley region of SoCal, studying data science and applied math. This is my first semester in academic development. I love hiking, listening to music, and visiting lookout points with friends. I’m super stoked to get to know everyone and help people along their data science journeys!
+bio: Hi everyone, I’m a second year from the San Gabriel Valley intending to double major in data science and applied math. In my free time I like listening to music, hiking, and playing video games with friends.
 role: TA
 pronouns: Machine Learning
 linkedin: https://www.linkedin.com/in/collin-duong-a615b028a/
