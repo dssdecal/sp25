@@ -8,4 +8,5 @@ role: TA
 pronouns: Machine Learning
 linkedin: https://www.linkedin.com/in/collin-duong-a615b028a/
 hover-photo: staff_hovers/collin_hover.jpeg
+order: 1
 ---
