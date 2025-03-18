@@ -1,4 +1,4 @@
----
+<!-- ---
 
 email: ryanstevenson@berkeley.edu
 name: Ryan Stevenson
@@ -10,4 +10,4 @@ linkedin: https://www.linkedin.com/in/lynnchien1/
 hover-photo: staff_hovers/ryan_hover.jpg
 linkedin: https://www.linkedin.com/in/ryanstevenson12/
 order: 4
----
+--- -->

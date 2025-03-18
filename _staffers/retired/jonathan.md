@@ -1,4 +1,4 @@
----
+<!-- ---
 email: jonathanferrari@berkeley.edu
 name: Jonathan Ferrari
 photo: staff/jonathan.jpeg
@@ -9,4 +9,4 @@ linkedin: https://www.linkedin.com/in/jonathanferrari/
 hover-photo: staff_hovers/jonathan-hover.png
 pronouns: Computer Vision
 order: 1
----
+--- -->

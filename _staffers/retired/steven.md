@@ -1,4 +1,4 @@
----
+<!-- ---
 email: k1519632@berkeley.edu
 name: Steven Zeng
 photo: staff/steven.png
@@ -9,4 +9,4 @@ website: https://stevenzengdp.com
 hover-photo: staff_hovers/steven_hover.png
 pronouns: Data Visualization
 order: 3
----
+--- -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 email: jegeronimo@berkeley.edu
 name: James Geronimo
 photo: staff/james.jpg
@@ -9,4 +9,4 @@ linkedin: https://www.linkedin.com/in/james-geronimo/
 hover-photo: staff_hovers/james_hover.jpg
 pronouns: Natural Language Processing
 order: 5
----
+--- -->

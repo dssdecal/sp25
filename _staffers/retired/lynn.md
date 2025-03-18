@@ -1,4 +1,4 @@
----
+<!-- ---
 email: lchien8@berkeley.edu
 name: Lynn Chien
 #pronouns: He/Him
@@ -9,4 +9,4 @@ pronouns: Feature Engineering
 linkedin: https://www.linkedin.com/in/lynnchien1/
 hover-photo: staff_hovers/lynn_hover.jpg
 order: 5
----
+--- -->
