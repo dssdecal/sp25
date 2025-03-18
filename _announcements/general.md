@@ -9,8 +9,7 @@ date: 2025-03-17 #Year-Month-Date
 - <a href = "https://bcourses.berkeley.edu/courses/1544114/quizzes/2496834">Mini-Vitamin 4</a> is due Monday, March 17 at 11:59 pm
 - Fill out the <a href = "https://forms.gle/9wo99RKy6Zb1952C6" target = "_blank">Mid Semester Feedback Form</a> by Friday, March 21
 
-## Quote of the week: The goal is to turn data into information, and information into insight – Carly Fiorina
-
+## Quote of the week: Data is the new oil. – Clive Humby
 
 
 
