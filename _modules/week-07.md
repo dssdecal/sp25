@@ -1,7 +1,7 @@
 ---
 title: Week 7
 class: Berkeley
-status: 
+status: Active
 ---
 
 Mar 24
