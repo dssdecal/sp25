@@ -1,7 +1,7 @@
 ---
-title: Week 6
-week: 6
-date: 2025-03-17 #Year-Month-Date
+title: Week 8
+week: 8
+date: 2025-03-31 #Year-Month-Date
 ---
 
 - Our Week 8 slides can be found <a href = "https://docs.google.com/presentation/d/1fOzQ0DTKONs1byW2Wcyf9iLVn_EgnV4t99rUk0STvGk/edit?usp=sharing" target = "_blank">here!</a>
