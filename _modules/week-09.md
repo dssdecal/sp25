@@ -1,7 +1,7 @@
 ---
 title: Week 9
 class: Berkeley
-status:
+status: Active
 ---
 
 Apr 7
